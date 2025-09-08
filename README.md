@@ -10,6 +10,7 @@ If you want to install Whoogle on Proxmox 9.x or later, the original script may 
 
 
 wget -O whoogle.sh https://raw.githubusercontent.com/Mehdi-Fadaei/Whoogle-Fix-for-Proxmox-9.0.x-Compatibility/main/whoogle.sh
+
 wget -O build.func https://raw.githubusercontent.com/Mehdi-Fadaei/Whoogle-Fix-for-Proxmox-9.0.x-Compatibility/main/build.func
 
 
