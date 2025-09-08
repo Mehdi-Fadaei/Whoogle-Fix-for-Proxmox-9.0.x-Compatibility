@@ -14,7 +14,7 @@ wget -O whoogle.sh https://raw.githubusercontent.com/Mehdi-Fadaei/Whoogle-Fix-fo
 wget -O build.func https://raw.githubusercontent.com/Mehdi-Fadaei/Whoogle-Fix-for-Proxmox-9.0.x-Compatibility/main/build.func
 
 
-2. Make sure `whoogle.sh` sources the local `build.func` and are in root od Linux :
+2. Make sure `whoogle.sh` sources the local `build.func` and are in root in PVE :
 
 3. Run the script inside a Debian 12 or Ubuntu 22.04 LXC container:
 
@@ -23,5 +23,3 @@ bash whoogle.sh
 
 
 ✅ This will install Whoogle safely on Proxmox 9.x and avoid the “version not supported” error.
-
-Note: Do not run the script directly on the Proxmox host—it must be inside a container.
