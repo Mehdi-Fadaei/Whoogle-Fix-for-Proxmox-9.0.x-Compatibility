@@ -8,16 +8,16 @@ If you want to install Whoogle on Proxmox 9.x or later, the original script may 
 
 1. Download both required files locally from this repository:
 
-bash
+
 wget -O whoogle.sh https://raw.githubusercontent.com/Mehdi-Fadaei/Whoogle-Fix-for-Proxmox-9.0.x-Compatibility/main/whoogle.sh
 wget -O build.func https://raw.githubusercontent.com/Mehdi-Fadaei/Whoogle-Fix-for-Proxmox-9.0.x-Compatibility/main/build.func
 
 
-2. Make sure `whoogle.sh` sources the local `build.func`:
+2. Make sure `whoogle.sh` sources the local `build.func` and are in root od Linux :
 
 3. Run the script inside a Debian 12 or Ubuntu 22.04 LXC container:
 
-bash
+
 bash whoogle.sh
 
 
