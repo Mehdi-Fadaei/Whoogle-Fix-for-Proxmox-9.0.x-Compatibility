@@ -16,8 +16,7 @@ wget -O build.func https://raw.githubusercontent.com/Mehdi-Fadaei/Whoogle-Fix-fo
 
 2. Make sure `whoogle.sh` sources the local `build.func` and are in root in PVE :
 
-3. Run the script inside a Debian 12 or Ubuntu 22.04 LXC container:
-
+3.
 
 bash whoogle.sh
 
